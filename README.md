@@ -132,7 +132,7 @@ graph TB
 ## 🚀 PROJECTS THAT ACTUALLY DO THINGS
 
 ### 🦞 OpenClaw — Personal AI Assistant `[Core Contributor]`
-> `380k+ ⭐ GitHub` *Self-hosted AI gateway connecting Telegram, WhatsApp, Discord, iMessage → AI agents*
+> `382k+ ⭐ GitHub` *Self-hosted AI gateway connecting Telegram, WhatsApp, Discord, iMessage → AI agents*
 
 ```
 Stack:     TypeScript · Node.js · Plugin Architecture · MCP/ACP
@@ -340,12 +340,12 @@ graph LR
 ## 📊 ACTIVITY
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=deb888&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00FFE7&icon_color=FF006E&text_color=E4E4E7&custom_title=⚡+GITHUB+ACTIVITY&include_all_commits=true&count_private=true" alt="Stats" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deb888&layout=compact&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00FFE7&text_color=E4E4E7&custom_title=📊+LANGUAGES&langs_count=12" alt="Languages" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=deb888&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00FFE7&icon_color=FF006E&text_color=E4E4E7&custom_title=⚡+GITHUB+ACTIVITY&include_all_commits=true&count_private=true&rank_icon=github" alt="Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deb888&layout=compact&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00FFE7&text_color=E4E4E7&custom_title=📊+LANGUAGES&langs_count=8&hide=html,css,scss,roff" alt="Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deb888&theme=transparent&hide_border=true&background=0D1117&stroke=00FFE7&ring=FF006E&fire=FFBE0B&currStreakLabel=00FFE7&sideNums=E4E4E7&currStreakNum=00FFE7&sideLabels=E4E4E7&date_format=j%20M%5B%20Y%5D" alt="Streak" width="80%" />
+  <img src="https://streak-stats.demolab.com/?user=deb888&theme=transparent&hide_border=true&background=0D1117&stroke=00FFE7&ring=FF006E&fire=FFBE0B&currStreakLabel=00FFE7&sideNums=E4E4E7&currStreakNum=00FFE7&sideLabels=E4E4E7&date_format=j%20M%5B%20Y%5D" alt="Streak" width="80%" />
 </p>
 
 <p align="center">
