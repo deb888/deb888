@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=00FFE7&center=true&vCenter=true&width=950&lines=🤖+I+build+AI+that+actually+does+things;⚛️+React+Native+→+Angular+→+AI+Agents;🦜️+LangChain+→+LangGraph+→+Multi-Agent+Systems;☸️+Terraform+→+Kubernetes+→+LLM+Deployments;🔧+OpenCode+→+OpenClaw+→+AI+Workflows;🧠+Fullstack+→+AI+DevOps+→+Neural+Stack" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=00FFE7&center=true&vCenter=true&width=950&lines=🤖+I+build+AI+that+actually+does+things;⚛️+React+Native+→+Angular+→+AI+Agents;🦜️+LangChain+→+LangGraph+→+Deep+Agents;🔌+MCP+→+A2A+→+Agent+Protocols;🏗️+Google+ADK+→+Mastra+→+MS+Agent+Framework;☸️+Terraform+→+Kubernetes+→+vLLM+Deployments;🔧+OpenCode+→+OpenClaw+→+AI+Workflows;🧠+Fullstack+→+AI+DevOps+→+Neural+Stack" alt="Typing Animation" />
 </p>
 
 <p align="center">
@@ -13,6 +13,14 @@
   <img src="https://img.shields.io/badge/☸️_AI_DEVOPS-8338EC?style=for-the-badge&labelColor=0D1117" />
   <img src="https://img.shields.io/badge/🦞_OPENCLAW-FF006E?style=for-the-badge&labelColor=0D1117" />
   <img src="https://img.shields.io/badge/🔧_OPENCODE-58A6FF?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🔌_MCP-00C853?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🤝_A2A-FF6F00?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/📦_MASTRA-8B5CF6?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🎯_GOOGLE_ADK-4285F4?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🪟_MS_AGENT-00A4EF?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🌀_DEEP_AGENTS-FF6B6B?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/⚡_GEMINI_2.5-4285F4?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🔥_CLAUDE_4-D97706?style=for-the-badge&labelColor=0D1117" />
 </p>
 
 <p align="center">
@@ -31,23 +39,35 @@ mission: "Building AI-powered applications end-to-end — from React Native to L
 philosophy: "Fullstack is the foundation. LangChain is the brain. Kubernetes is the body. OpenClaw is the heartbeat."
 
 domains:
-  mobile:    "React Native · Expo · Ionic/Capacitor — cross-platform native apps"
-  ai_agents: "LangChain · LangGraph · Multi-Agent Systems · RAG · Tool-Use · Memory"
-  backend:   "NestJS · Fastify · Python · PostgreSQL · Redis · Kafka"
-  frontend:  "Angular 18+ (Signals, Standalone) · React · Tailwind"
-  infra:     "Kubernetes · Terraform · ArgoCD · Istio · Crossplane"
+  mobile:       "React Native · Expo · Ionic/Capacitor — cross-platform native apps"
+  ai_agents:    "LangChain · LangGraph · Deep Agents · Multi-Agent Systems · RAG · Tool-Use · Memory"
+  agent_proto:  "MCP (Model Context Protocol) · A2A (Agent-to-Agent) · ACP (Agent Client Protocol)"
+  frameworks:   "LangChain · CrewAI · Google ADK · Microsoft Agent Framework · Mastra · OpenAI Agents SDK"
+  backend:      "NestJS · Fastify · Python · PostgreSQL · Redis · Kafka"
+  frontend:     "Angular 18+ (Signals, Standalone) · React · Tailwind"
+  infra:        "Kubernetes · Terraform · ArgoCD · Istio · Crossplane"
 
 tools_i_love:
   - "LangChain — The standard for LLM application development"
+  - "LangGraph — Agent orchestration with cycles, state, and persistence"
+  - "MCP — Model Context Protocol, the universal tool connector for AI"
+  - "A2A — Google-led Agent-to-Agent protocol for multi-agent interoperability"
+  - "Google ADK — Opinionated, batteries-included agent runtime for GCP"
+  - "Microsoft Agent Framework — Unified AutoGen + Semantic Kernel at GA"
+  - "Mastra — TypeScript-native agent framework with workflows + memory"
+  - "Deep Agents — LangChain's long-running, persistent agent workflows"
+  - "OpenAI Agents SDK — Clean multi-agent delegation with minimal abstraction"
+  - "Claude Agent SDK — Anthropic's agent framework for tool-use and reasoning"
   - "OpenCode — AI coding agent I'm using right now to build this profile"
   - "OpenClaw — Personal AI assistant ecosystem (core contributor)"
-  - "LangGraph — Agent orchestration with cycles, state, and persistence"
+  - "Gemini 2.5 / Claude 4 — The frontier models driving agent reasoning"
   - "React Native — One codebase, every platform"
 
 ai_devops:
   ml_pipelines: "Kubeflow · MLflow · DVC · Weights & Biases"
-  serving:      "vLLM · TGI · Ollama · Triton Inference Server"
-  monitoring:   "LangSmith · Prometheus · Grafana · Phoenix"
+  serving:      "vLLM · TGI · Ollama · Triton Inference Server · TensorRT-LLM"
+  monitoring:   "LangSmith · Prometheus · Grafana · Phoenix · Datadog"
+  governance:   "Agent lifecycle management · Guardrails · Audit trails · Cost tracking"
   automation:   "OpenClaw Workflows · Cron · Heartbeat · Task Flow · Hooks"
 ```
 
@@ -56,35 +76,55 @@ ai_devops:
 ## ⚡ THE AI ENGINEER STACK
 
 ```mermaid
-graph LR
+graph TB
     subgraph "MOBILE FIRST"
         A["React Native / Expo"] --> B["iOS & Android"]
         A --> C["Hybrid (Ionic)"]
     end
-    subgraph "AI & AGENTS"
-        D["LangChain"] --> E["LangGraph / CrewAI"]
-        E --> F["Multi-Agent System"]
-        F --> G["Tools · RAG · Memory · Planning"]
+    subgraph "AGENT PROTOCOLS"
+        P1["🔌 MCP (Tool Access)"] --- P2["🤝 A2A (Agent-to-Agent)"]
+        P2 --- P3["🔄 ACP (Agent Client)"]
+    end
+    subgraph "AI FRAMEWORKS 2026"
+        D["LangChain"] --> E["LangGraph / Deep Agents"]
+        F["Google ADK"] --> P2
+        G["MS Agent Framework"] --> P1
+        H["Mastra (TypeScript)"]
+        I["OpenAI Agents SDK"]
+        J["Claude Agent SDK"]
+        K["CrewAI"]
+    end
+    subgraph "MULTI-AGENT SYSTEMS"
+        L["Supervisor / Worker"] --> M["Swarm / Pipeline"]
+        M --> N["Reflection / ReAct"]
+        N --> O["RAG · Tool-Use · Memory · Planning"]
     end
     subgraph "BACKEND & OPS"
-        H["NestJS / FastAPI"] --> I["PostgreSQL · Redis · Kafka"]
-        H --> J["REST · GraphQL · gRPC"]
+        Q["NestJS / FastAPI"] --> R["PostgreSQL · Redis · Kafka"]
+        Q --> S["REST · GraphQL · gRPC"]
     end
-    subgraph "AI DEVOPS"
-        K["Terraform"] --> L["Kubernetes"]
-        L --> M["vLLM · Ollama · TGI"]
-        M --> N["MLflow · Prometheus · LangSmith"]
-        N --> O["OpenClaw Workflow Engine"]
+    subgraph "AI DEVOPS & SERVING"
+        T["Terraform"] --> U["Kubernetes"]
+        U --> V["vLLM · Ollama · TGI · TensorRT-LLM"]
+        V --> W["MLflow · Prometheus · LangSmith · Datadog"]
+        W --> X["OpenClaw Workflow Engine"]
     end
-    C --> H
-    G --> A & C & H
-    O --> L & F
+    C --> Q
+    O --> A & C & Q
+    X --> U & L
+    P1 --> D & K
+    P3 --> X
     style A fill:#61DAFB,color:#000
     style D fill:#FFBE0B,color:#000
-    style F fill:#00FFE7,color:#000
-    style K fill:#7B42BC,color:#fff
-    style L fill:#326CE5,color:#fff
-    style O fill:#FF006E,color:#fff
+    style F fill:#4285F4,color:#fff
+    style G fill:#00A4EF,color:#fff
+    style H fill:#8B5CF6,color:#fff
+    style O fill:#00FFE7,color:#000
+    style P1 fill:#00C853,color:#fff
+    style P2 fill:#FF6F00,color:#fff
+    style T fill:#7B42BC,color:#fff
+    style U fill:#326CE5,color:#fff
+    style X fill:#FF006E,color:#fff
 ```
 
 ---
@@ -134,6 +174,65 @@ Scale:     50+ clusters · 500+ services · 99.99% uptime
 
 ---
 
+## 🔥 TRENDING NOW — 2026 AI Agent Stack
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'background': '#0D1117', 'primaryColor': '#00FFE7', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#00FFE7', 'secondaryColor': '#0a0a1a', 'tertiaryColor': '#1a1a2e'}}}%%
+graph LR
+    subgraph "PROTOCOLS"
+        A["🔌 MCP"] --> B["Tool Access"]
+        C["🤝 A2A"] --> D["Agent Interop"]
+        E["🔄 ACP"] --> F["Client Protocol"]
+    end
+    subgraph "FRAMEWORKS"
+        G["LangGraph / Deep Agents"]
+        H["Google ADK"]
+        I["MS Agent Framework"]
+        J["Mastra"]
+        K["OpenAI Agents SDK"]
+        L["Claude Agent SDK"]
+    end
+    subgraph "FRONTIER MODELS"
+        M["⚡ Gemini 2.5 Pro"]
+        N["🔥 Claude 4 Sonnet/Opus"]
+        O["🧠 GPT-5"]
+        P["🦙 Llama 4"]
+    end
+    subgraph "PRODUCTION"
+        Q["vLLM · Ollama · TGI"]
+        R["LangSmith · Datadog · Phoenix"]
+        S["Kubernetes · Terraform · ArgoCD"]
+        T["OpenClaw · Cron · Heartbeat"]
+    end
+    A & C & E --> G & H & I & J & K & L
+    G & H & I & J & K & L --> M & N & O & P
+    M & N & O & P --> Q
+    Q --> R
+    R --> S
+    S --> T
+    style A fill:#00C853,color:#fff
+    style C fill:#FF6F00,color:#fff
+    style E fill:#8B5CF6,color:#fff
+    style G fill:#FFBE0B,color:#000
+    style H fill:#4285F4,color:#fff
+    style I fill:#00A4EF,color:#fff
+    style M fill:#4285F4,color:#fff
+    style N fill:#D97706,color:#fff
+    style T fill:#FF006E,color:#fff
+```
+
+**2026 Key Trends:**
+- 🔌 **MCP** — Universal standard for AI-to-tool connectivity (Anthropic-led)
+- 🤝 **A2A** — Google-led Agent-to-Agent protocol for cross-framework interop
+- 🪟 **Microsoft Agent Framework** — AutoGen + Semantic Kernel unified at GA
+- 🎯 **Google ADK** — Batteries-included agent runtime for GCP-native stacks
+- 📦 **Mastra** — TypeScript-native agent framework (workflows, memory, Studio)
+- 🌀 **Deep Agents** — LangChain's long-running persistent agent workflows
+- 🔥 **Claude 4 / Gemini 2.5 / GPT-5** — Frontier models driving agent reasoning
+- 🛡️ **Agent Governance** — Lifecycle management, guardrails, cost tracking
+
+---
+
 ## 🧰 TOOLBOX
 
 <details>
@@ -144,11 +243,19 @@ Scale:     50+ clusters · 500+ services · 99.99% uptime
 |------|---------------------|
 | **LangChain** | LLM app framework — chains, agents, RAG, tool-use, memory |
 | **LangGraph** | Stateful agent orchestration — cycles, branching, persistence |
+| **Deep Agents** | Long-running persistent agent workflows with LangChain |
 | **LangSmith** | LLM observability — traces, evaluations, prompt management |
-| **CrewAI / AutoGen** | Multi-agent teams — supervisor, swarm, pipeline patterns |
+| **Google ADK** | Batteries-included agent runtime for GCP with A2A interop |
+| **MS Agent Framework** | Unified AutoGen + Semantic Kernel (GA) for .NET/enterprise |
+| **Mastra** | TypeScript-native agents with workflows, memory, and Studio |
+| **OpenAI Agents SDK** | Clean multi-agent delegation with minimal abstraction |
+| **Claude Agent SDK** | Anthropic's agent SDK — tool-use, reasoning, handoffs |
+| **CrewAI** | Role-based multi-agent teams — rapid prototyping |
+| **MCP Servers** | Model Context Protocol — universal tool connectivity |
+| **A2A Protocol** | Agent-to-Agent interoperability across frameworks |
 | **OpenClaw** | Personal AI assistants — skills engine, automation, plugin SDK |
 | **Qdrant / pgvector** | Vector stores for RAG — hybrid search, filtering, re-ranking |
-| **vLLM / Ollama** | Self-hosted model serving — privacy-first, local inference |
+| **vLLM / Ollama / TGI** | Self-hosted model serving — privacy-first, local inference |
 </details>
 
 <details>
@@ -167,35 +274,39 @@ Scale:     50+ clusters · 500+ services · 99.99% uptime
 </details>
 
 <details>
-<summary><b>🔧 OpenCode & AI Codedev</summary>
+<summary><b>🔧 OpenCode & AI Development</b> (click to expand)</summary>
 <br>
 
 | Tech | What I Do With It |
 |------|-------------------|
-| **OpenCode** | AI coding agent — I'm using it right now to build this profile |
+| **OpenCode** | AI coding agent — building this profile and more |
 | **Claude Code / Codex** | Terminal-based AI coding assistants |
 | **OpenClaw + OpenCode** | Autonomous dev loop — OpenCode writes, OpenClaw deploys |
 | **MCP Servers** | Model Context Protocol — connecting AI to tools and data |
+| **A2A Protocol** | Agent-to-Agent — multi-framework agent coordination |
 | **ACP Agents** | Agent Client Protocol — multi-agent coordination |
+| **Genkit** | Google's open-source AI framework for TypeScript/Node.js |
 </details>
 
 <details>
-<summary><b>☸️ AI DevOps & MLOps</summary>
+<summary><b>☸️ AI DevOps & MLOps</b> (click to expand)</summary>
 <br>
 
 | Tech | What I Do With It |
 |------|-------------------|
 | **Kubernetes** | Model serving infrastructure — EKS/GKE/AKS |
-| **vLLM / TGI** | LLM inference serving with continuous batching |
-| **Terraform / Pulumi** | Infrastructure as Code for ML platforms |
+| **vLLM / TGI / TensorRT-LLM** | LLM inference serving with continuous batching |
+| **Terraform / Pulumi / Crossplane** | Infrastructure as Code for ML platforms |
 | **MLflow / W&B** | Experiment tracking, model registry, artifact storage |
-| **Prometheus / Grafana** | Model monitoring — latency, throughput, token usage |
+| **Prometheus / Grafana / Datadog** | Model monitoring — latency, throughput, token usage |
+| **LangSmith / Phoenix** | LLM observability — traces, evals, prompt management |
 | **ArgoCD / Flux** | GitOps for model deployments |
-| **Kubeflow** | ML pipelines on Kubernetes |
+| **Kubeflow / Flyte** | ML pipelines on Kubernetes |
+| **Agent Governance** | Lifecycle mgmt, guardrails, audit trails, cost tracking |
 </details>
 
 <details>
-<summary><b>🦞 OpenClaw Workflow Engine</summary>
+<summary><b>🦞 OpenClaw Workflow Engine</b> (click to expand)</summary>
 <br>
 
 | Feature | What It Does |
@@ -211,7 +322,7 @@ Scale:     50+ clusters · 500+ services · 99.99% uptime
 </details>
 
 <details>
-<summary><b>⚛️ Full Stack</summary>
+<summary><b>⚛️ Full Stack</b> (click to expand)</summary>
 <br>
 
 | Layer | Stack |
@@ -248,10 +359,22 @@ Scale:     50+ clusters · 500+ services · 99.99% uptime
 ```mermaid
 mindmap
   root((🧠 Current Focus))
-    LangChain
-      Multi-agent systems
-      RAG pipelines
-      Tool-use and memory
+    Agent Protocols
+      MCP -- Tool connectivity
+      A2A -- Agent interop
+      ACP -- Client protocol
+    AI Frameworks 2026
+      LangGraph / Deep Agents
+      Google ADK
+      MS Agent Framework
+      Mastra
+      OpenAI Agents SDK
+      Claude Agent SDK
+    Frontier Models
+      Gemini 2.5 Pro
+      Claude 4 Sonnet
+      GPT-5
+      Llama 4
     React Native
       Cross-platform apps
       Expo ecosystem
@@ -267,7 +390,7 @@ mindmap
     AI DevOps
       Model serving on K8s
       ML monitoring
-      Cost optimization
+      Agent governance
 ```
 
 ---
