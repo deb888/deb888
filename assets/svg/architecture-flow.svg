@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500">
+  <defs>
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1117"/>
+      <stop offset="100%" style="stop-color:#161B22"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00FFE7"/>
+      <stop offset="100%" style="stop-color:#00D4AA"/>
+    </linearGradient>
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF006E"/>
+      <stop offset="100%" style="stop-color:#D63384"/>
+    </linearGradient>
+    <linearGradient id="neonOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFBE0B"/>
+      <stop offset="100%" style="stop-color:#FB5607"/>
+    </linearGradient>
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3A86FF"/>
+      <stop offset="100%" style="stop-color:#58A6FF"/>
+    </linearGradient>
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8338EC"/>
+      <stop offset="100%" style="stop-color:#D2A8FF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowStrong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="url(#neonCyan)"/>
+    </marker>
+    <marker id="arrowheadPink" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="url(#neonPink)"/>
+    </marker>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#00FFE7" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="500" fill="url(#darkBg)"/>
+  <rect width="1000" height="500" fill="url(#dots)"/>
+  
+  <!-- Title -->
+  <text x="500" y="30" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700" fill="url(#neonCyan)" filter="url(#glow)">
+    🧠 AI-FIRST ARCHITECTURE • deb888
+  </text>
+  <text x="500" y="50" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8B949E">
+    Production-Ready Autonomous Systems Pipeline
+  </text>
+  
+  <!-- LAYER 1: USER INTERACTION -->
+  <g id="layer1" transform="translate(50, 80)">
+    <rect x="0" y="0" width="900" height="80" rx="8" fill="#0D1117" stroke="url(#neonCyan)" stroke-width="1" opacity="0.3"/>
+    <text x="10" y="20" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="url(#neonCyan)">LAYER 1: INTERACTION &amp; INTERFACES</text>
+    
+    <!-- Components -->
+    <g class="component" transform="translate(20, 35)">
+      <rect x="0" y="0" width="160" height="45" rx="6" fill="#161B22" stroke="#00FFE7" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="80" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#00FFE7">🌐 WEB</text>
+      <text x="80" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="7" fill="#8B949E">Angular 18+ • Signals</text>
+    </g>
+    
+    <g class="component" transform="translate(200, 35)">
+      <rect x="0" y="0" width="160" height="45" rx="6" fill="#161B22" stroke="#FF006E" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+      </rect>
+      <text x="80" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#FF006E">💬 CHAT</text>
+      <text x="80" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="7" fill="#8B949E">Telegram • Discord</text>
+    </g>
+    
+    <g class="component" transform="translate(380, 35)">
+      <rect x="0" y="0" width="160" height="45" rx="6" fill="#161B22" stroke="#FFBE0B" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+      </rect>
+      <text x="80" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#FFBE0B">📱 MOBILE</text>
+      <text x="80" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="7" fill="#8B949E">iOS • Android</text>
+    </g>
+    
+    <g class="component" transform="translate(560, 35)">
+      <rect x="0" y="0" width="160" height="45" rx="6" fill="#161B22" stroke="#3A86FF" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+      </rect>
+      <text x="80" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#3A86FF">🔌 API</text>
+      <text x="80" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="7" fill="#8B949E">gRPC • tRPC • REST</text>
+    </g>
+    
+    <g class="component" transform="translate(740, 35)">
+      <rect x="0" y="0" width="140" height="45" rx="6" fill="#161B22" stroke="#8338EC" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+      </rect>
+      <text x="70" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#8338EC">🎙 VOICE</text>
+      <text x="70" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="7" fill="#8B949E">Realtime API</text>
+    </g>
+  </g>
+  
+  <!-- Flow arrows down -->
+  <g stroke="url(#neonCyan)" stroke-width="1.5" fill="none" stroke-dasharray="5,5" opacity="0.6">
+    <path d="M100,160 L100,180" marker-end="url(#arrowhead)">
+      <animate attributeName="stroke-dashoffset" values="0;20;0" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M280,160 L280,180" marker-end="url(#arrowheadPink)">
+      <animate attributeName="stroke-dashoffset" values="0;20;0" dur="1.5s" repeatCount="indefinite" begin="0.2s"/>
+    </path>
+    <path d="M460,160 L460,180" marker-end="url(#arrowhead)">
+      <animate attributeName="stroke-dashoffset" values="0;20;0" dur="1.5s" repeatCount="indefinite" begin="0.4s"/>
+    </path>
+    <path d="M640,160 L640,180" marker-end="url(#arrowhead)">
+      <animate attributeName="stroke-dashoffset" values="0;20;0" dur="1.5s" repeatCount="indefinite" begin="0.6s"/>
+    </path>
+    <path d="M810,160 L810,180" marker-end="url(#arrowhead)">
+      <animate attributeName="stroke-dashoffset" values="0;20;0" dur="1.5s" repeatCount="indefinite" begin="0.8s"/>
+    </path>
+  </g>
+  
+  <!-- LAYER 2: AI ORCHESTRATION -->
+  <g id="layer2" transform="translate(50, 190)">
+    <rect x="0" y="0" width="900" height="100" rx="8" fill="#0D1117" stroke="url(#neonPink)" stroke-width="1" opacity="0.3"/>
+    <text x="10" y="20" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="url(#neonPink)">LAYER 2: AI ORCHESTRATION &amp; AGENT RUNTIME</text>
+    
+    <!-- Central Gateway -->
+    <g transform="translate(370, 25)">
+      <ellipse cx="80" cy="25" rx="75" ry="30" fill="#161B22" stroke="url(#neonPink)" stroke-width="2" filter="url(#glowStrong)">
+        <animate attributeName="rx" values="75;78;75" dur="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="ry" values="30;32;30" dur="1.5s" repeatCount="indefinite"/>
+      </ellipse>
+      <text x="80" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="url(#neonPink)">🦞 OPENCLAW</text>
+      <text x="80" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="6" fill="#8B949E">GATEWAY • MULTI-CHANNEL</text>
+    </g>
+    
+    <!-- Agent Types around gateway -->
+    <g class="agent-node" transform="translate(50, 25)">
+      <rect x="0" y="0" width="140" height="50" rx="6" fill="#161B22" stroke="#00FFE7" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="70" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#00FFE7">🤖 PLANNER</text>
+      <text x="70" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="6" fill="#8B949E">LangGraph • CrewAI</text>
+    </g>
+    
+    <g class="agent-node" transform="translate(210, 25)">
+      <rect x="0" y="0" width="140" height="50" rx="6" fill="#161B22" stroke="#FFBE0B" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+      </rect>
+      <text x="70" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#FFBE0B">🔧 EXECUTOR</text>
+      <text x="70" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="6" fill="#8B949E">Tools • Skills • MCP</text>
+    </g>
+    
+    <g class="agent-node" transform="translate(560, 25)">
+      <rect x="0" y="0" width="140" height="50" rx="6" fill="#161B22" stroke="#3A86FF" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+      </rect>
+      <text x="70" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#3A86FF">🧠 REASONER</text>
+      <text x="70" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="6" fill="#8B949E">LLM • CoT • ReAct</text>
+    </g>
+    
+    <g class="agent-node" transform="translate(720, 25)">
+      <rect x="0" y="0" width="140" height="50" rx="6" fill="#161B22" stroke="#8338EC" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+      </rect>
+      <text x="70" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#8338EC">💾 MEMORY</text>
+      <text x="70" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="6" fill="#8B949E">Vector • Graph • Episodic</text>
+    </g>
+  </g>
+  
+  <!-- Flow arrows down -->
+  <g stroke="url(#neonPink)" stroke-width="1.5" fill="none" stroke-dasharray="5,5" opacity="0.6">
+    <path d="M450,290 L450,310" marker-end="url(#arrowheadPink)">
+      <animate attributeName="stroke-dashoffset" values="0;20;0" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- LAYER 3: INTELLIGENCE SERVICES -->
+  <g id="layer3" transform="translate(50, 320)">
+    <rect x="0" y="0" width="900" height="80" rx="8" fill="#0D1117" stroke="url(#neonOrange)" stroke-width="1" opacity="0.3"/>
+    <text x="10" y="20" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="url(#neonOrange)">LAYER 3: INTELLIGENCE SERVICES &amp; DATA LAYER</text>
+    
+    <g class="service" transform="translate(20, 30)">
+      <rect x="0" y="0" width="150" height="45" rx="6" fill="#161B22" stroke="#FFBE0B" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="75" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#FFBE0B">🔍 RAG 2.0</text>
+      <text x="75" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="6" fill="#8B949E">GraphRAG • Hybrid Search</text>
+    </g>
+    
+    <g class="service" transform="translate(190, 30)">
+      <rect x="0" y="0" width="150" height="45" rx="6" fill="#161B22" stroke="#FB5607" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+      </rect>
+      <text x="75" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#FB5607">📊 VECTOR DB</text>
+      <text x="75" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="6" fill="#8B949E">Qdrant • Weaviate • pgvector</text>
+    </g>
+    
+    <g class="service" transform="translate(360, 30)">
+      <rect x="0" y="0" width="150" height="45" rx="6" fill="#161B22" stroke="#00FFE7" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+      </rect>
+      <text x="75" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#00FFE7">🧠 MODEL SERVING</text>
+      <text x="75" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="6" fill="#8B949E">vLLM • TGI • Ollama</text>
+    </g>
+    
+    <g class="service" transform="translate(530, 30)">
+      <rect x="0" y="0" width="150" height="45" rx="6" fill="#161B22" stroke="#8338EC" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+      </rect>
+      <text x="75" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#8338EC">🔄 FINE-TUNING</text>
+      <text x="75" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="6" fill="#8B949E">LoRA/QLoRA • Axolotl</text>
+    </g>
+    
+    <g class="service" transform="translate(700, 30)">
+      <rect x="0" y="0" width="180" height="45" rx="6" fill="#161B22" stroke="#3A86FF" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+      </rect>
+      <text x="90" y="16" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" fill="#3A86FF">📈 OBSERVABILITY</text>
+      <text x="90" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="6" fill="#8B949E">LangSmith • Phoenix • MLflow</text>
+    </g>
+  </g>
+  
+  <!-- Flow arrows down -->
+  <g stroke="url(#neonOrange)" stroke-width="1.5" fill="none" stroke-dasharray="5,5" opacity="0.6">
+    <path d="M100,400 L100,420" marker-end="url(#arrowhead)">
+      <animate attributeName="stroke-dashoffset" values="0;20;0" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M265,400 L265,420" marker-end="url(#arrowhead)">
+      <animate attributeName="stroke-dashoffset" values="0;20;0" dur="1.5s" repeatCount="indefinite" begin="0.2s"/>
+    </path>
+    <path d="M435,400 L435,420" marker-end="url(#arrowhead)">
+      <animate attributeName="stroke-dashoffset" values="0;20;0" dur="1.5s" repeatCount="indefinite" begin="0.4s"/>
+    </path>
+    <path d="M605,400 L605,420" marker-end="url(#arrowhead)">
+      <animate attributeName="stroke-dashoffset" values="0;20;0" dur="1.5s" repeatCount="indefinite" begin="0.6s"/>
+    </path>
+    <path d="M790,400 L790,420" marker-end="url(#arrowhead)">
+      <animate attributeName="stroke-dashoffset" values="0;20;0" dur="1.5s" repeatCount="indefinite" begin="0.8s"/>
+    </path>
+  </g>
+  
+  <!-- LAYER 4: INFRASTRUCTURE FOUNDATION -->
+  <g id="layer4" transform="translate(50, 430)">
+    <rect x="0" y="0" width="900" height="55" rx="8" fill="#0D1117" stroke="url(#neonBlue)" stroke-width="1" opacity="0.3"/>
+    <text x="10" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="url(#neonBlue)">LAYER 4: CLOUD NATIVE INFRASTRUCTURE • ☸ KUBERNETES • 🏗 TERRAFORM • 🕸 ISTIO • 📦 HELM</text>
+    
+    <g transform="translate(20, 28)">
+      <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="7" fill="#58A6FF">☸ EKS/GKE/AKS</text>
+      <text x="110" y="0" font-family="'JetBrains Mono', monospace" font-size="7" fill="#7B42BC">🏗 Terraform</text>
+      <text x="220" y="0" font-family="'JetBrains Mono', monospace" font-size="7" fill="#00FFE7">🕸 Istio</text>
+      <text x="320" y="0" font-family="'JetBrains Mono', monospace" font-size="7" fill="#FFBE0B">📦 Helm/Kustomize</text>
+      <text x="440" y="0" font-family="'JetBrains Mono', monospace" font-size="7" fill="#FF006E">🔄 ArgoCD/Flux</text>
+      <text x="570" y="0" font-family="'JetBrains Mono', monospace" font-size="7" fill="#8338EC">🛡 Kyverno/OPA</text>
+      <text x="700" y="0" font-family="'JetBrains Mono', monospace" font-size="7" fill="#3A86FF">📊 Grafana/Prom</text>
+      <text x="820" y="0" font-family="'JetBrains Mono', monospace" font-size="7" fill="#FB5607">💰 FinOps</text>
+    </g>
+  </g>
+  
+  <!-- Feedback loop arrow from bottom to top -->
+  <path d="M950,460 Q980,460 980,250 Q980,80 950,80" 
+        stroke="url(#neonCyan)" stroke-width="2" fill="none" stroke-dasharray="10,5" opacity="0.7" marker-end="url(#arrowhead)">
+    <animate attributeName="stroke-dashoffset" values="0;50;0" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <text x="970" y="250" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="7" fill="#00FFE7" transform="rotate(-90, 970, 250)">
+    FEEDBACK LOOP
+  </text>
+  
+  <!-- Legend -->
+  <g transform="translate(50, 495)" font-family="'JetBrains Mono', monospace" font-size="7">
+    <circle cx="5" cy="0" r="4" fill="url(#neonCyan)"/><text x="15" y="3">FRONTEND/INTERFACES</text>
+    <circle cx="180" cy="0" r="4" fill="url(#neonPink)"/><text x="190" y="3">AI ORCHESTRATION</text>
+    <circle cx="350" cy="0" r="4" fill="url(#neonOrange)"/><text x="360" y="3">INTELLIGENCE SERVICES</text>
+    <circle cx="550" cy="0" r="4" fill="url(#neonBlue)"/><text x="560" y="3">INFRASTRUCTURE</text>
+  </g>
+</svg>

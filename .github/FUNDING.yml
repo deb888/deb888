@@ -1,0 +1,15 @@
+# GitHub Sponsors Configuration
+# Place at: .github/FUNDING.yml
+
+# These usernames will be used to generate "Sponsor this project" buttons
+# on your profile and repositories
+
+github: [deb888]
+patreon: deb888
+ko_fi: deb888
+buy_me_a_coffee: deb888
+paypal: bruce.deb@email.com
+custom: ["https://github.com/sponsors/deb888"]
+
+# Optional: Add a custom message
+# message: "☕ Fuel the neural networks — every coffee trains another layer"
