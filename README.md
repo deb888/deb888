@@ -3,14 +3,16 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=00FFE7&center=true&vCenter=true&width=900&lines=🤖+I+build+AI+that+actually+does+things;⚛️+React+→+Angular+→+AI+Agents;☸️+React+→+Terraform+→+Kubernetes+→+LLMs;🧠+MEAN+Stack+→+Neural+Stack;⚡+Frontend+→+Backend+→+AI+→+Infra" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=00FFE7&center=true&vCenter=true&width=950&lines=🤖+I+build+AI+that+actually+does+things;⚛️+React+Native+→+Angular+→+AI+Agents;🦜️+LangChain+→+LangGraph+→+Multi-Agent+Systems;☸️+Terraform+→+Kubernetes+→+LLM+Deployments;🔧+OpenCode+→+OpenClaw+→+AI+Workflows;🧠+Fullstack+→+AI+DevOps+→+Neural+Stack" alt="Typing Animation" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/🧠_AI_DEVELOPER-00FFE7?style=for-the-badge&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/⚛️_FULLSTACK-FF006E?style=for-the-badge&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/☸️_CLOUD_NATIVE-8338EC?style=for-the-badge&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/🦞_OPENCLAW_CORE-FFBE0B?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🦜️_LANGCHAIN-FFBE0B?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/⚛️_REACT_NATIVE-61DAFB?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/☸️_AI_DEVOPS-8338EC?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🦞_OPENCLAW-FF006E?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🔧_OPENCODE-58A6FF?style=for-the-badge&labelColor=0D1117" />
 </p>
 
 <p align="center">
@@ -24,92 +26,110 @@
 ```yaml
 name: "Bruce Deb"
 handle: "deb888"
-role: "AI Developer · Fullstack Architect · Cloud Native Engineer"
-mission: "Building AI-powered applications from frontend to infrastructure"
-philosophy: "Fullstack is the foundation. AI is the multiplier."
+role: "AI Developer · Fullstack Architect · AI DevOps Engineer"
+mission: "Building AI-powered applications end-to-end — from React Native to LangChain agents deployed on Kubernetes"
+philosophy: "Fullstack is the foundation. LangChain is the brain. Kubernetes is the body. OpenClaw is the heartbeat."
 
 domains:
-  frontend:  "Angular 18+ (Signals, Standalone) · React · Ionic · Tailwind"
+  mobile:    "React Native · Expo · Ionic/Capacitor — cross-platform native apps"
+  ai_agents: "LangChain · LangGraph · Multi-Agent Systems · RAG · Tool-Use · Memory"
   backend:   "NestJS · Fastify · Python · PostgreSQL · Redis · Kafka"
-  ai_ml:     "LangGraph · OpenClaw · CrewAI · vLLM · RAG · Fine-tuning"
+  frontend:  "Angular 18+ (Signals, Standalone) · React · Tailwind"
   infra:     "Kubernetes · Terraform · ArgoCD · Istio · Crossplane"
-  mobile:    "Ionic/Capacitor — one codebase, iOS + Android"
+
+tools_i_love:
+  - "LangChain — The standard for LLM application development"
+  - "OpenCode — AI coding agent I'm using right now to build this profile"
+  - "OpenClaw — Personal AI assistant ecosystem (core contributor)"
+  - "LangGraph — Agent orchestration with cycles, state, and persistence"
+  - "React Native — One codebase, every platform"
+
+ai_devops:
+  ml_pipelines: "Kubeflow · MLflow · DVC · Weights & Biases"
+  serving:      "vLLM · TGI · Ollama · Triton Inference Server"
+  monitoring:   "LangSmith · Prometheus · Grafana · Phoenix"
+  automation:   "OpenClaw Workflows · Cron · Heartbeat · Task Flow · Hooks"
 ```
 
 ---
 
-## ⚡ FROM FULLSTACK TO NEURAL STACK
+## ⚡ THE AI ENGINEER STACK
 
 ```mermaid
 graph LR
-    subgraph "FRONTEND"
-        A["React / Angular"] --> B["Ionic Mobile"]
-        A --> C["Progressive Web App"]
+    subgraph "MOBILE FIRST"
+        A["React Native / Expo"] --> B["iOS & Android"]
+        A --> C["Hybrid (Ionic)"]
     end
-    subgraph "AI ORCHESTRATION"
-        D["LLM APIs"] --> E["LangGraph / CrewAI"]
-        E --> F["Agent Runtime"]
-        F --> G["Tools · Skills · RAG"]
+    subgraph "AI & AGENTS"
+        D["LangChain"] --> E["LangGraph / CrewAI"]
+        E --> F["Multi-Agent System"]
+        F --> G["Tools · RAG · Memory · Planning"]
     end
-    subgraph "BACKEND"
-        H["NestJS / Fastify"] --> I["PostgreSQL · Redis · Kafka"]
+    subgraph "BACKEND & OPS"
+        H["NestJS / FastAPI"] --> I["PostgreSQL · Redis · Kafka"]
         H --> J["REST · GraphQL · gRPC"]
     end
-    subgraph "INFRASTRUCTURE"
+    subgraph "AI DEVOPS"
         K["Terraform"] --> L["Kubernetes"]
-        L --> M["ArgoCD · Istio · Helm"]
-        M --> N["EKS · GKE · AKS"]
+        L --> M["vLLM · Ollama · TGI"]
+        M --> N["MLflow · Prometheus · LangSmith"]
+        N --> O["OpenClaw Workflow Engine"]
     end
     C --> H
-    G --> C & H
-    L --> H & D
-    style A fill:#DD0031,color:#fff
-    style D fill:#00FFE7,color:#000
-    style F fill:#FF006E,color:#fff
+    G --> A & C & H
+    O --> L & F
+    style A fill:#61DAFB,color:#000
+    style D fill:#FFBE0B,color:#000
+    style F fill:#00FFE7,color:#000
     style K fill:#7B42BC,color:#fff
     style L fill:#326CE5,color:#fff
+    style O fill:#FF006E,color:#fff
 ```
 
 ---
 
 ## 🚀 PROJECTS THAT ACTUALLY DO THINGS
 
-### 🦞 OpenClaw — Personal AI Assistant
-> `380k+ ⭐ GitHub` · Core Contributor
-
-*Self-hosted AI gateway. Chat with your agent via Telegram, WhatsApp, Discord, iMessage. It manages your email, calendar, code, smart home — on your hardware, zero data leakage.*
+### 🦞 OpenClaw — Personal AI Assistant `[Core Contributor]`
+> `380k+ ⭐ GitHub` *Self-hosted AI gateway connecting Telegram, WhatsApp, Discord, iMessage → AI agents*
 
 ```
-Stack:  TypeScript · Node.js · Plugin Architecture · MCP/ACP
-My contribution:  Skills engine, automation layer (cron/heartbeat/tasks), plugin SDK
+Stack:     TypeScript · Node.js · Plugin Architecture · MCP/ACP
+My part:   Skills engine, automation layer, plugin SDK, multi-agent routing
+Workflows: Cron jobs · Heartbeat monitoring · Task Flow orchestration · Hooks · Standing Orders
 ```
 
-### 🧠 AI Code Review Bot
-> Personal project
-
-*Drop a PR link → my bot clones the repo, runs tests, lints, security-scans, and posts a full structured review with blocking/warning/suggestion categories.*
+### 🦜️ LangChain AI Agent Suite `[Building]`
+> *Multi-agent system with planning, tool-use, persistent memory, and human-in-the-loop*
 
 ```
-Stack:  LangGraph · CrewAI · gh CLI · Docker · Python/TypeScript
-Trigger: "review PR #123" in any channel
+Stack:     LangChain · LangGraph · LangSmith · Qdrant · PostgreSQL
+Patterns:  Supervisor/worker · Swarm · Pipeline · Reflection · ReAct
 ```
 
-### ☁️ Platform Engineering Framework
-> Enterprise · 50+ clusters · 500+ services
-
-*Internal developer platform. Self-service golden paths. Policy-as-code. 2-week provisioning → 15 minutes. 40% cloud cost reduction.*
+### 🔧 OpenCode + OpenClaw Integration `[Workflow]`
+> *Using OpenCode (AI coding agent) paired with OpenClaw for autonomous development pipelines*
 
 ```
-Stack:  Backstage  Crossplane  ArgoCD  Kubernetes  Terraform
+Setup:  OpenCode writes code → OpenClaw deploys it → Cron monitors it → Heartbeat reports back
+Flow:   "write a Slack bot" → OpenCode codes it → OpenClaw deploys to K8s → Cron keeps it alive
 ```
 
-### 📱 Hybrid Mobile Apps
-> Public repos with real users
-
-*Real-time chat, GPS tracking, image upload — Angular + Ionic + Socket.io + Node.js from a single codebase.*
+### 📱 React Native Mobile Apps
+> *Cross-platform native apps — one TypeScript codebase, iOS + Android*
 
 ```
-Repos: ionic-chat-app · trackinionic · node-muter-imageupload-rest-api
+Stack:    React Native · Expo · TypeScript · Socket.io
+Projects: Real-time chat · GPS tracking · Image upload · REST APIs
+```
+
+### ☁️ AI DevOps Pipeline `[Enterprise]`
+> *ML infrastructure: model serving, monitoring, auto-scaling, and cost optimization*
+
+```
+Stack:     Kubernetes · Terraform · vLLM · MLflow · Prometheus · Grafana
+Scale:     50+ clusters · 500+ services · 99.99% uptime
 ```
 
 ---
@@ -117,48 +137,91 @@ Repos: ionic-chat-app · trackinionic · node-muter-imageupload-rest-api
 ## 🧰 TOOLBOX
 
 <details>
-<summary><b>🧠 AI & Machine Learning</b> (click to expand)</summary>
+<summary><b>🦜️ LangChain & AI Agents</b> (click to expand)</summary>
 <br>
 
 | Tech | What I Build With It |
 |------|---------------------|
-| **LangChain / LangGraph** | Multi-agent flows with planning, memory, tool-use, and human-in-the-loop |
-| **OpenClaw** | Personal AI assistants — skills engine, automation, plugin SDK (core contributor) |
-| **CrewAI / AutoGen** | Agent teams — supervisor, swarm, pipeline orchestration patterns |
-| **vLLM / Ollama** | Self-hosted model serving — privacy-first, runs on my hardware |
-| **Qdrant / pgvector** | RAG pipelines — vector + hybrid search for grounded LLM responses |
-| **Axolotl / Unsloth** | Fine-tuning — LoRA/QLoRA on custom data, domain adaptation |
-| **LangSmith / MLflow** | LLM observability — traces, evaluations, prompt management |
+| **LangChain** | LLM app framework — chains, agents, RAG, tool-use, memory |
+| **LangGraph** | Stateful agent orchestration — cycles, branching, persistence |
+| **LangSmith** | LLM observability — traces, evaluations, prompt management |
+| **CrewAI / AutoGen** | Multi-agent teams — supervisor, swarm, pipeline patterns |
+| **OpenClaw** | Personal AI assistants — skills engine, automation, plugin SDK |
+| **Qdrant / pgvector** | Vector stores for RAG — hybrid search, filtering, re-ranking |
+| **vLLM / Ollama** | Self-hosted model serving — privacy-first, local inference |
 </details>
 
 <details>
-<summary><b>⚛️ Full Stack</b> (click to expand)</summary>
+<summary><b>⚛️ React Native & Mobile</b> (click to expand)</summary>
 <br>
 
 | Layer | Stack |
 |-------|-------|
-| **Frontend** | Angular 18+ (Signals, Standalone, Zoneless), React, Ionic, Tailwind |
-| **State** | NgRx SignalStore, RxJS, React Query, Zustand |
-| **Backend** | NestJS, Fastify, Express, Python (FastAPI), Go |
-| **Database** | PostgreSQL, MongoDB, Redis, TimescaleDB, ClickHouse |
-| **API** | REST, GraphQL Federation, gRPC, tRPC, WebSocket |
-| **Mobile** | Ionic/Capacitor — iOS + Android from one TypeScript codebase |
-| **Testing** | Vitest, Playwright, Cypress, Testing Library |
+| **Framework** | React Native, Expo, Ionic/Capacitor |
+| **Navigation** | React Navigation, Expo Router |
+| **State** | React Query, Zustand, Redux Toolkit |
+| **UI** | NativeBase, Tamagui, Tailwind Native |
+| **Native APIs** | Camera, Geolocation, Bluetooth, Push Notifications |
+| **Build** | EAS Build, Xcode, Android Studio, Fastlane |
+| **Store** | App Store Connect, Google Play Console |
 </details>
 
 <details>
-<summary><b>☸️ Cloud & Infrastructure</b> (click to expand)</summary>
+<summary><b>🔧 OpenCode & AI Codedev</summary>
 <br>
 
 | Tech | What I Do With It |
 |------|-------------------|
-| **Kubernetes** | Operators, CRDs, custom controllers — EKS/GKE/AKS |
-| **Terraform / Pulumi** | Infrastructure as Code — modules, workspaces, policy |
-| **ArgoCD / Flux** | GitOps — deploy from git, auto-reconcile, drift detection |
-| **Istio / Linkerd** | Service mesh — mTLS, traffic splitting, circuit breaking |
-| **Prometheus / Grafana** | Observability — metrics, logs, traces, SLOs, alerts |
-| **Backstage** | Developer portal — golden paths, software catalog |
-| **Crossplane** | Control plane — infrastructure from Kubernetes API |
+| **OpenCode** | AI coding agent — I'm using it right now to build this profile |
+| **Claude Code / Codex** | Terminal-based AI coding assistants |
+| **OpenClaw + OpenCode** | Autonomous dev loop — OpenCode writes, OpenClaw deploys |
+| **MCP Servers** | Model Context Protocol — connecting AI to tools and data |
+| **ACP Agents** | Agent Client Protocol — multi-agent coordination |
+</details>
+
+<details>
+<summary><b>☸️ AI DevOps & MLOps</summary>
+<br>
+
+| Tech | What I Do With It |
+|------|-------------------|
+| **Kubernetes** | Model serving infrastructure — EKS/GKE/AKS |
+| **vLLM / TGI** | LLM inference serving with continuous batching |
+| **Terraform / Pulumi** | Infrastructure as Code for ML platforms |
+| **MLflow / W&B** | Experiment tracking, model registry, artifact storage |
+| **Prometheus / Grafana** | Model monitoring — latency, throughput, token usage |
+| **ArgoCD / Flux** | GitOps for model deployments |
+| **Kubeflow** | ML pipelines on Kubernetes |
+</details>
+
+<details>
+<summary><b>🦞 OpenClaw Workflow Engine</summary>
+<br>
+
+| Feature | What It Does |
+|---------|--------------|
+| **Cron Jobs** | Scheduled tasks — daily reports, reminders, batch jobs |
+| **Heartbeat** | Periodic agent turns every ~30 min — inbox check, calendar scan |
+| **Task Flow** | Durable multi-step orchestration with revision tracking |
+| **Hooks** | Event-driven scripts — session lifecycle, message flow |
+| **Standing Orders** | Persistent agent instructions (AGENTS.md) |
+| **Inferred Commitments** | Memory-like follow-ups from natural conversation |
+| **Skills** | SKILL.md instruction packs — teach agents new abilities |
+| **Plugins** | Channel, tool, and provider extensions from ClawHub |
+</details>
+
+<details>
+<summary><b>⚛️ Full Stack</summary>
+<br>
+
+| Layer | Stack |
+|-------|-------|
+| **Frontend** | Angular 18+ (Signals, Standalone), React, Tailwind |
+| **Backend** | NestJS, Fastify, Express, Python (FastAPI), Go |
+| **Database** | PostgreSQL, MongoDB, Redis, TimescaleDB, ClickHouse |
+| **API** | REST, GraphQL Federation, gRPC, tRPC, WebSocket |
+| **Mobile** | React Native, Expo, Ionic/Capacitor |
+| **Testing** | Vitest, Playwright, Cypress, Testing Library |
 </details>
 
 ---
@@ -185,17 +248,26 @@ Repos: ionic-chat-app · trackinionic · node-muter-imageupload-rest-api
 ```mermaid
 mindmap
   root((🧠 Current Focus))
-    Building
-      OpenClaw skills and plugins
-      AI code review automation
-      Personal AI agent workflows
-    Learning
-      Multi-agent patterns (supervisor, swarm)
-      Angular Signals + SSR in production
-      Platform engineering at scale
-    Stack
-      TypeScript · Python · Go
-      Angular 18 · LangGraph · K8s
+    LangChain
+      Multi-agent systems
+      RAG pipelines
+      Tool-use and memory
+    React Native
+      Cross-platform apps
+      Expo ecosystem
+      Native modules
+    OpenClaw
+      Skills & workflows
+      Plugin SDK
+      Automation engine
+    OpenCode
+      AI coding workflows
+      Agent-client protocols
+      MCP integration
+    AI DevOps
+      Model serving on K8s
+      ML monitoring
+      Cost optimization
 ```
 
 ---
@@ -215,6 +287,9 @@ mindmap
   <a href="https://discord.gg/clawd">
     <img src="https://img.shields.io/badge/DISCORD-OpenClaw_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117" />
   </a>
+  <a href="https://github.com/openclaw/openclaw">
+    <img src="https://img.shields.io/badge/OPENCLAW-Core_Contributor-FF006E?style=for-the-badge&logo=openai&logoColor=white&labelColor=0D1117" />
+  </a>
 </p>
 
 <p align="center">
@@ -223,8 +298,8 @@ mindmap
 
 <p align="center">
   <sub>
-    <b>AI Developer · Fullstack Architect · Cloud Native</b><br>
-    <i>"Frontend → Backend → AI → Infrastructure — I build it all."</i>
+    <b>AI Developer · Fullstack · AI DevOps · OpenCode · OpenClaw</b><br>
+    <i>"React Native → LangChain → Kubernetes → OpenClaw workflow — I build the whole pipeline."</i>
   </sub>
 </p>
 
@@ -232,5 +307,6 @@ mindmap
 
 <!--
   deb888/deb888 — AI Developer Profile
-  "Fullstack is the foundation. AI is the multiplier."
+  Built with OpenCode 🤖
+  "Fullstack is the foundation. LangChain is the brain. K8s is the body. OpenClaw is the heartbeat."
 -->

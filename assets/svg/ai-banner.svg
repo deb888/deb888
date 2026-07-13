@@ -117,20 +117,20 @@
   <!-- Text nodes -->
   <g font-family="'JetBrains Mono', 'Fira Code', monospace">
     <g transform="translate(120, 50)">
-      <text x="0" y="0" text-anchor="middle" font-size="12" font-weight="700" fill="#00FFE7" filter="url(#glow)">AI ENGINEER</text>
-      <text x="0" y="18" text-anchor="middle" font-size="8" fill="#8B949E">LangGraph · OpenClaw · vLLM</text>
+      <text x="0" y="0" text-anchor="middle" font-size="12" font-weight="700" fill="#00FFE7" filter="url(#glow)">LANGCHAIN</text>
+      <text x="0" y="18" text-anchor="middle" font-size="8" fill="#8B949E">LangGraph · Agents · RAG</text>
     </g>
     <g transform="translate(120, 200)">
-      <text x="0" y="0" text-anchor="middle" font-size="12" font-weight="700" fill="#FF006E" filter="url(#glow)">FULLSTACK</text>
-      <text x="0" y="18" text-anchor="middle" font-size="8" fill="#8B949E">Angular 18 · React · Node.js</text>
+      <text x="0" y="0" text-anchor="middle" font-size="12" font-weight="700" fill="#FF006E" filter="url(#glow)">OPENCLAW</text>
+      <text x="0" y="18" text-anchor="middle" font-size="8" fill="#8B949E">Workflows · Skills · Gateway</text>
     </g>
     <g transform="translate(780, 50)">
-      <text x="0" y="0" text-anchor="middle" font-size="12" font-weight="700" fill="#3A86FF" filter="url(#glow)">CLOUD NATIVE</text>
-      <text x="0" y="18" text-anchor="middle" font-size="8" fill="#8B949E">Kubernetes · Terraform · Istio</text>
+      <text x="0" y="0" text-anchor="middle" font-size="12" font-weight="700" fill="#61DAFB" filter="url(#glow)">REACT NATIVE</text>
+      <text x="0" y="18" text-anchor="middle" font-size="8" fill="#8B949E">Expo · iOS · Android</text>
     </g>
     <g transform="translate(780, 200)">
-      <text x="0" y="0" text-anchor="middle" font-size="12" font-weight="700" fill="#FFBE0B" filter="url(#glow)">MOBILE</text>
-      <text x="0" y="18" text-anchor="middle" font-size="8" fill="#8B949E">Ionic · Capacitor · Hybrid</text>
+      <text x="0" y="0" text-anchor="middle" font-size="11" font-weight="700" fill="#8338EC" filter="url(#glow)">AI DEVOPS</text>
+      <text x="0" y="18" text-anchor="middle" font-size="8" fill="#8B949E">K8s · vLLM · OpenCode</text>
     </g>
   </g>
   
