@@ -428,8 +428,8 @@ mindmap
   <a href="https://linkedin.com/in/brucedeb">
     <img src="https://img.shields.io/badge/LINKEDIN-Bruce_Deb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" />
   </a>
-  <a href="mailto:bruce@deb888.dev">
-    <img src="https://img.shields.io/badge/MAIL-bruce@deb888.dev-D14836?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=0D1117" />
+  <a href="mailto:wwwdeb888@gmail.com">
+    <img src="https://img.shields.io/badge/MAIL-wwwdeb888@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" />
   </a>
   <a href="https://discord.gg/clawd">
     <img src="https://img.shields.io/badge/DISCORD-OpenClaw_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117" />
