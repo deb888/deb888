@@ -21,6 +21,8 @@
   <img src="https://img.shields.io/badge/🌀_DEEP_AGENTS-FF6B6B?style=for-the-badge&labelColor=0D1117" />
   <img src="https://img.shields.io/badge/⚡_GEMINI_2.5-4285F4?style=for-the-badge&labelColor=0D1117" />
   <img src="https://img.shields.io/badge/🔥_CLAUDE_4-D97706?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/☁️_AWS_BEDROCK-FF9900?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/⚡_AWS_SERVERLESS-FF9900?style=for-the-badge&labelColor=0D1117" />
 </p>
 
 <p align="center">
@@ -45,6 +47,7 @@ domains:
   frameworks:   "LangChain · CrewAI · Google ADK · Microsoft Agent Framework · Mastra · OpenAI Agents SDK"
   backend:      "NestJS · Fastify · Python · PostgreSQL · Redis · Kafka"
   frontend:     "Angular 18+ (Signals, Standalone) · React · Tailwind"
+  aws:          "Bedrock · Lambda · API Gateway · DynamoDB · SQS · S3 — serverless AI on AWS"
   infra:        "Kubernetes · Terraform · ArgoCD · Istio · Crossplane"
 
 tools_i_love:
@@ -62,10 +65,12 @@ tools_i_love:
   - "OpenClaw — Personal AI assistant ecosystem (core contributor)"
   - "Gemini 2.5 / Claude 4 — The frontier models driving agent reasoning"
   - "React Native — One codebase, every platform"
+  - "AWS Bedrock — Foundation models + agents as a managed service"
+  - "AWS Serverless — Lambda, API Gateway, DynamoDB — pay-per-use AI backends"
 
 ai_devops:
   ml_pipelines: "Kubeflow · MLflow · DVC · Weights & Biases"
-  serving:      "vLLM · TGI · Ollama · Triton Inference Server · TensorRT-LLM"
+  serving:      "AWS Bedrock · vLLM · TGI · Ollama · Triton Inference Server · TensorRT-LLM"
   monitoring:   "LangSmith · Prometheus · Grafana · Phoenix · Datadog"
   governance:   "Agent lifecycle management · Guardrails · Audit trails · Cost tracking"
   automation:   "OpenClaw Workflows · Cron · Heartbeat · Task Flow · Hooks"
@@ -93,6 +98,7 @@ graph TB
         I["OpenAI Agents SDK"]
         J["Claude Agent SDK"]
         K["CrewAI"]
+        Z["☁️ AWS Bedrock"]
     end
     subgraph "MULTI-AGENT SYSTEMS"
         L["Supervisor / Worker"] --> M["Swarm / Pipeline"]
@@ -102,6 +108,7 @@ graph TB
     subgraph "BACKEND & OPS"
         Q["NestJS / FastAPI"] --> R["PostgreSQL · Redis · Kafka"]
         Q --> S["REST · GraphQL · gRPC"]
+        W["☁️ AWS Serverless"] --> Q
     end
     subgraph "AI DEVOPS & SERVING"
         T["Terraform"] --> U["Kubernetes"]
@@ -125,6 +132,8 @@ graph TB
     style T fill:#7B42BC,color:#fff
     style U fill:#326CE5,color:#fff
     style X fill:#FF006E,color:#fff
+    style Z fill:#FF9900,color:#fff
+    style W fill:#FF9900,color:#fff
 ```
 
 ---
@@ -191,6 +200,7 @@ graph LR
         J["Mastra"]
         K["OpenAI Agents SDK"]
         L["Claude Agent SDK"]
+        U["☁️ AWS Bedrock"]
     end
     subgraph "FRONTIER MODELS"
         M["⚡ Gemini 2.5 Pro"]
@@ -204,8 +214,8 @@ graph LR
         S["Kubernetes · Terraform · ArgoCD"]
         T["OpenClaw · Cron · Heartbeat"]
     end
-    A & C & E --> G & H & I & J & K & L
-    G & H & I & J & K & L --> M & N & O & P
+    A & C & E --> G & H & I & J & K & L & U
+    G & H & I & J & K & L & U --> M & N & O & P
     M & N & O & P --> Q
     Q --> R
     R --> S
@@ -219,6 +229,7 @@ graph LR
     style M fill:#4285F4,color:#fff
     style N fill:#D97706,color:#fff
     style T fill:#FF006E,color:#fff
+    style U fill:#FF9900,color:#fff
 ```
 
 **2026 Key Trends:**
@@ -264,6 +275,7 @@ graph LR
 | **OpenClaw** | Personal AI assistants — skills engine, automation, plugin SDK |
 | **Qdrant / pgvector** | Vector stores for RAG — hybrid search, filtering, re-ranking |
 | **vLLM / Ollama / TGI** | Self-hosted model serving — privacy-first, local inference |
+| **AWS Bedrock** | Managed FM access — Claude, Llama, Mistral + agents via AWS |
 </details>
 
 <details>
@@ -303,6 +315,7 @@ graph LR
 | Tech | What I Do With It |
 |------|-------------------|
 | **Kubernetes** | Model serving infrastructure — EKS/GKE/AKS |
+| **AWS Serverless** | Lambda · API Gateway · DynamoDB · SQS · S3 — serverless AI backends |
 | **vLLM / TGI / TensorRT-LLM** | LLM inference serving with continuous batching |
 | **Terraform / Pulumi / Crossplane** | Infrastructure as Code for ML platforms |
 | **MLflow / W&B** | Experiment tracking, model registry, artifact storage |
@@ -377,6 +390,7 @@ mindmap
       Google ADK
       MS Agent Framework
       Mastra
+      AWS Bedrock
       OpenAI Agents SDK
       Claude Agent SDK
     Frontier Models
@@ -398,6 +412,7 @@ mindmap
       MCP
     AI DevOps
       K8s model serving
+      AWS Serverless
       ML monitoring
       Agent governance
 ```
