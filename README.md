@@ -233,6 +233,14 @@ graph LR
 
 ---
 
+## 📊 COMPETENCY MATRIX
+
+<p align="center">
+  <img src="assets/svg/competency-matrix.svg" alt="Competency Matrix" width="100%" />
+</p>
+
+---
+
 ## 🧰 TOOLBOX
 
 <details>
