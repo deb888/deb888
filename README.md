@@ -177,7 +177,7 @@ Scale:     50+ clusters · 500+ services · 99.99% uptime
 ## 🔥 TRENDING NOW — 2026 AI Agent Stack
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'background': '#0D1117', 'primaryColor': '#00FFE7', 'primaryTextColor': '#fff', 'primaryBorderColor': '#333', 'lineColor': '#00FFE7', 'secondaryColor': '#0a0a1a', 'tertiaryColor': '#1a1a2e'}}}%%
+%%{init: {"theme": "base", "themeVariables": { "background": "#0D1117", "primaryColor": "#00FFE7", "primaryTextColor": "#fff", "primaryBorderColor": "#333", "lineColor": "#00FFE7", "secondaryColor": "#0a0a1a", "tertiaryColor": "#1a1a2e"}}}%%
 graph LR
     subgraph "PROTOCOLS"
         A["🔌 MCP"] --> B["Tool Access"]
@@ -368,11 +368,12 @@ graph LR
 mindmap
   root((🧠 Current Focus))
     Agent Protocols
-      MCP -- Tool connectivity
-      A2A -- Agent interop
-      ACP -- Client protocol
+      MCP
+      A2A
+      ACP
     AI Frameworks 2026
-      LangGraph / Deep Agents
+      LangGraph
+      Deep Agents
       Google ADK
       MS Agent Framework
       Mastra
@@ -385,18 +386,18 @@ mindmap
       Llama 4
     React Native
       Cross-platform apps
-      Expo ecosystem
+      Expo
       Native modules
     OpenClaw
-      Skills & workflows
+      Skills
+      Workflows
       Plugin SDK
-      Automation engine
     OpenCode
-      AI coding workflows
-      Agent-client protocols
-      MCP integration
+      AI coding
+      Agent protocols
+      MCP
     AI DevOps
-      Model serving on K8s
+      K8s model serving
       ML monitoring
       Agent governance
 ```
